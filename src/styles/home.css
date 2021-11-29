@@ -1,0 +1,100 @@
+.home-page {
+    height: 100vh;
+    background: url(../img/duality.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.main-text {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.trr {
+    font-weight: bold;
+    font-size: 12rem;
+    color: white;
+    position: absolute;
+    left: 3%;
+    bottom: 40%;
+}
+
+.j {
+    font-weight: bold;
+    font-size: 12rem;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+
+.read-now {
+    padding: 2rem 3rem;
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0.3rem 0.5rem rgba(104, 104, 104, 0.192);
+    position: absolute;
+    left: 4%;
+    bottom: 30%;
+}
+
+@media screen and (max-width: 1720px) {
+    .trr {
+        bottom: 35%;
+    }
+    .j {
+        right: 12%;
+    }
+    .read-now {
+        bottom: 25%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .trr {
+        bottom: 33%;
+        left: 2%;
+    }
+    .j {
+        right: 7%;
+    }
+    .read-now {
+        bottom: 25%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .trr {
+        font-weight: bold;
+        font-size: 12rem;
+        position: absolute;
+        color: black;
+        right: 3%;
+        text-align: right;
+        top: 20%;
+    }
+    .j {
+        font-weight: bold;
+        font-size: 12rem;
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 3%;
+    }
+    .read-now {
+        bottom: 33%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .trr {
+        width: 70rem;
+    }
+}

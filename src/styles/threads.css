@@ -1,0 +1,14 @@
+.threads {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.threads-header {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.thread-link {
+    margin-bottom: 9rem;
+}

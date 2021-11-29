@@ -1,0 +1,7 @@
+.selector {
+    width: 10rem;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}

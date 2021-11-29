@@ -1,0 +1,13 @@
+import React from 'react'
+import AuthorDash from './AuthorDash'
+
+const AdminDash = () => {
+    return (
+        <div>
+           <AuthorDash /> 
+           <h1>Admin Options:</h1>
+        </div>
+    )
+}
+
+export default AdminDash

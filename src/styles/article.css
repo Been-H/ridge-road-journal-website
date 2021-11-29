@@ -1,0 +1,49 @@
+.article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.article-title {
+    margin-top: 3rem;
+    font-size: 7rem;
+    margin-bottom: 1rem;
+}
+
+.article-standalone-title-text {
+
+}
+.article-standalone-title {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.article-author {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+}
+
+.article-date {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 7rem;
+}
+
+.article-category {
+    margin-bottom: 1rem;
+}
+
+.article-body {
+    color: black;
+    width: 40%;
+    margin: 0 auto;
+    height: auto;
+}
+

@@ -1,0 +1,10 @@
+.title-flex__text {
+    display: inline;
+}
+
+.title-flex__image {
+    margin-left: 2rem;
+    display: inline;
+    width: 3rem;
+    height: 3rem;
+}

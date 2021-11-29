@@ -1,0 +1,56 @@
+.thread-body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.thread-title {
+    margin-top: 3rem;
+    font-size: 7rem;
+    margin-bottom: 1rem;
+}
+
+.thread-article {
+    margin-bottom: 10rem;
+}
+
+.article-thread-title {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.thread-standalone-title {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 6rem;
+    width: 100%;
+}
+
+.thread-article-author {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    color: black;
+}
+
+.thread-article-date {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 7rem;
+}
+
+.thread-article-body {
+    color: black;
+    width: 70%;
+    height: auto;
+}
+
+.thread-category {
+    margin-bottom: 1rem;
+}
+
+
+

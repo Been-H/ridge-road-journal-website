@@ -1,0 +1,14 @@
+.articles {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles-header {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.article-link {
+    margin-bottom: 9rem;
+}
