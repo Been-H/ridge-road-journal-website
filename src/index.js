@@ -48,7 +48,7 @@ const routing = (
     <React.StrictMode>
       <Nav />
       <Switch>
-        <Route path="/" exact component={Home}/>
+        <Route path="https://been-h.github.io/ridge-road-journal-website/" exact component={Home}/>
         <Route path="/about" component={About}/> 
 
         <Route path="/articles/" exact component={Articles}/> 
