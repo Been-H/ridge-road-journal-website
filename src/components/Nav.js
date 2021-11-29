@@ -13,7 +13,7 @@ const Nav = () => {
                 <nav>
                     <h3 className="logo">The Ridge Road Journal</h3>
                     <ul className="nav-links">
-                        <Link to="/ridge-road-journal" style={LinkStyle}>
+                        <Link to="/ridge-road-journal-website" style={LinkStyle}>
                             <li>Home</li>
                         </Link>
                         
