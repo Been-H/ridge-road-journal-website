@@ -13,17 +13,17 @@ const Nav = () => {
                 <nav>
                     <h3 className="logo">The Ridge Road Journal</h3>
                     <ul className="nav-links">
-                        <Link to="/" style={LinkStyle}>
+                        <Link to="/ridge-road-journal-website" style={LinkStyle}>
                             <li>Home</li>
                         </Link>
                         
-                        <Link to="/articles" style={LinkStyle}>
+                        <Link to="/ridge-road-journal-website/articles" style={LinkStyle}>
                             <li>Articles</li>
                         </Link>
-                        <Link to="/threads" style={LinkStyle}>
+                        <Link to="/ridge-road-journal-website/threads" style={LinkStyle}>
                             <li>Threads</li>
                         </Link>
-                        <Link to="/author-dash" style={LinkStyle}>
+                        <Link to="/ridge-road-journal-website/author-dash" style={LinkStyle}>
                             <li>Author Tools</li>
                         </Link>
                     
