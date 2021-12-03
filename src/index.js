@@ -48,7 +48,11 @@ const routing = (
     <React.StrictMode>
       <Nav />
       <Switch>
+<<<<<<< HEAD
       <Route path="/ridge-road-journal" exact component={Home}/>
+=======
+        <Route path="/ridge-road-journal" exact component={Home}/>
+>>>>>>> 95aa2748ccec78033f4036e879032a97a31eb848
         <Route path="/ridge-road-journal/about" component={About}/> 
 
         <Route path="/ridge-road-journal/articles/" exact component={Articles}/> 
@@ -74,6 +78,13 @@ const routing = (
         <Route path="/ridge-road-journal/author-logout" exact component={AuthorLogout}/> 
 
         <Route path="/ridge-road-journal/author-dash" exact component={AuthorDash}/> 
+<<<<<<< HEAD
+=======
+
+        <Route path="/ridge-road-journal/nf" exact component={NotFound}/>
+        <Route path="/ridge-road-journal/na" exact component={NotAuthorized}/>
+        <Route path="/ridge-road-journal/error" exact component={Unknown}/>
+>>>>>>> 95aa2748ccec78033f4036e879032a97a31eb848
 
         <Route path="/ridge-road-journal/nf" exact component={NotFound}/>
         <Route path="/ridge-road-journal/na" exact component={NotAuthorized}/>
