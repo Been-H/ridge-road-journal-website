@@ -8,7 +8,7 @@ const Home = () => {
             <div className="main-text">
                 <span className="trr">The Ridge Road</span>
                 <span className="j"> Journal</span>
-                <Link to="/threads" style={LinkStyle}>
+                <Link to="/ridge-road-journal-website/articles" style={LinkStyle}>
                     <a className="read-now" href="">Read Now</a>
                 </Link>
                
