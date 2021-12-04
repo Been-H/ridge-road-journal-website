@@ -8,7 +8,7 @@ const PostDetail = ({ match }) => {
     const history = useHistory()
 
     useEffect(() => {
-        axiosInstance.get(`http://127.0.0.1:8000/api/articles/${match.params.id}`) 
+        axiosInstance.get(`/articles/${match.params.id}`) 
         .then((response) => {
             console.log(response)
             setArticle(response.data)
