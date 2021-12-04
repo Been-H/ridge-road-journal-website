@@ -9,7 +9,7 @@ const ArticleDelete = ( {match} ) => {
     const history = useHistory()
 
     useEffect(() => {
-        axiosInstance.get(`articles/${match.params.id}`) 
+        axiosInstance.get(`/articles/${match.params.id}`) 
         .then((response) => {
             setArticle(response.data)
         })

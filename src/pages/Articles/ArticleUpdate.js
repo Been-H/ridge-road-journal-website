@@ -12,7 +12,7 @@ const ArticleUpdate = ({match}) => {
     const [formData, updateFormData] = useState({})
     
     useEffect(() => {
-        axiosInstance.get(`http://127.0.0.1:8000/api/articles/${match.params.id}`) 
+        axiosInstance.get(`/articles/${match.params.id}`) 
         .then((response) => {
             updateFormData(response.data)
         })
