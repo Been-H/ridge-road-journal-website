@@ -70,11 +70,11 @@ axiosInstance.interceptors.response.use(
 						});
 				} else {
 					console.log('Refresh token is expired', tokenParts.exp, now);
-					window.location.href = '/na';
+					window.location.href = '/ridge-road-journal-website/na';
 				}
 			} else {
 				console.log('Refresh token not available.');
-				window.location.href = '/na';
+				window.location.href = '/ridge-road-journal-website/na';
 			}
 		}
 
