@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ridge-road-journal-website/static/css/main.72f9e34d.chunk.css",
-    "main.js": "/ridge-road-journal-website/static/js/main.c2682424.chunk.js",
-    "main.js.map": "/ridge-road-journal-website/static/js/main.c2682424.chunk.js.map",
+    "main.js": "/ridge-road-journal-website/static/js/main.a4e23d7f.chunk.js",
+    "main.js.map": "/ridge-road-journal-website/static/js/main.a4e23d7f.chunk.js.map",
     "runtime-main.js": "/ridge-road-journal-website/static/js/runtime-main.dedf0e1d.js",
     "runtime-main.js.map": "/ridge-road-journal-website/static/js/runtime-main.dedf0e1d.js.map",
     "static/js/2.a2bf86a6.chunk.js": "/ridge-road-journal-website/static/js/2.a2bf86a6.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.dedf0e1d.js",
     "static/js/2.a2bf86a6.chunk.js",
     "static/css/main.72f9e34d.chunk.css",
-    "static/js/main.c2682424.chunk.js"
+    "static/js/main.a4e23d7f.chunk.js"
   ]
 }
