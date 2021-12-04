@@ -8,7 +8,7 @@ const NotAuthorized = () => {
         <div>
             <h1>You need to be logged in to be here!</h1>
             <button onClick={() => history.go(-2)}>Go Back</button>
-            <button onClick={() => history.push('/author-login')}>Login</button>
+            <button onClick={() => history.push('/ridge-road-journal-website/author-login')}>Login</button>
         </div>
     )
 }
