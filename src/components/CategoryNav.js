@@ -32,7 +32,7 @@ const CategoryNav = ( { isArticles }) => {
                         <ul className="category-nav-links">
                            
                             {categories.map((category) => (
-                                <Link to={`/${articlesOrThreads}/categories/${category.name}`} style={WhiteLinkStyle}>
+                                <Link to={`/ridge-road-journal-website/${articlesOrThreads}/categories/${category.name}`} style={WhiteLinkStyle}>
                                     <li>{category.name}</li>
                                 </Link>
                              ))}   
