@@ -52,7 +52,7 @@ const AuthorDash = () => {
             
         }).catch((err) => {
             if (err.response.status === 401 && err.response.statusText === 'Unauthorized') {
-                history.push('/na')
+                history.push('/ridge-road-journal-website/na')
             }
         })
         axiosInstance.get(`threads/?dash&category`)

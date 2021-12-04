@@ -17,7 +17,7 @@ const DeleteCategory = ( {match }) => {
         axiosInstance.delete(`categories/${match.params.name}`)
         .then((res) => {
             if (res.data === "Not Admin") {
-                history.push('na/')
+                history.push('/ridge-road-journal-website/na/')
             } 
             history.push("/author-dash")
         })       

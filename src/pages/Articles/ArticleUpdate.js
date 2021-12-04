@@ -45,7 +45,7 @@ const ArticleUpdate = ({match}) => {
         })
         .catch((err) => {
             if (err.response.status === 401 && err.response.statusText === 'Unauthorized') {
-                history.push('/na/')
+                history.push('/ridge-road-journal-website/na/')
             } else if (err.response.statusText === 'Bad Request') {
                 
                 alert(err.response.data)
