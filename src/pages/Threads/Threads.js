@@ -28,7 +28,7 @@ const Threads = ({ match }) => {
                 <CategoryNav isArticles={false}/>
                 <h1 className="threads-header">Recent {match.params.category ? match.params.category +" ": ""}Threads:</h1>
                 {threads.reverse().map((thread) => (
-                   <Link to={`/threads/${thread.id}`} style={WhiteLinkStyle}>
+                   <Link to={`/ridge-road-journal-website/threads/${thread.id}`} style={WhiteLinkStyle}>
                         <div className="thread-link">
                             <h1 className="thread-title">{thread.title}</h1> 
                             <h3 className="thread-category">{thread.category}</h3>

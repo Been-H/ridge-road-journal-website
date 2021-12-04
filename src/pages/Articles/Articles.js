@@ -31,7 +31,7 @@ const Articles = ( {match }) => {
                 <CategoryNav isArticles={true}/>
                 <h1 className="articles-header">Recent {match.params.category ? match.params.category +" ": ""}Articles:</h1>
                 {articles.map((article) => (
-                   <Link to={`/articles/${article.id}`} style={WhiteLinkStyle}>
+                   <Link to={`/ridge-road-journal-website/articles/${article.id}`} style={WhiteLinkStyle}>
                        <div className="article-link">
                             <h1 className="article-title">{article.title}</h1> 
                             <h3 className="article-category">{article.category_name}</h3>
