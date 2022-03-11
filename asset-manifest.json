@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ridge-road-journal-website/static/css/main.eb4ed88e.chunk.css",
-    "main.js": "/ridge-road-journal-website/static/js/main.06cedc72.chunk.js",
-    "main.js.map": "/ridge-road-journal-website/static/js/main.06cedc72.chunk.js.map",
-    "runtime-main.js": "/ridge-road-journal-website/static/js/runtime-main.dedf0e1d.js",
-    "runtime-main.js.map": "/ridge-road-journal-website/static/js/runtime-main.dedf0e1d.js.map",
-    "static/js/2.0285e044.chunk.js": "/ridge-road-journal-website/static/js/2.0285e044.chunk.js",
-    "static/js/2.0285e044.chunk.js.map": "/ridge-road-journal-website/static/js/2.0285e044.chunk.js.map",
-    "static/js/3.e82e72c0.chunk.js": "/ridge-road-journal-website/static/js/3.e82e72c0.chunk.js",
-    "static/js/3.e82e72c0.chunk.js.map": "/ridge-road-journal-website/static/js/3.e82e72c0.chunk.js.map",
+    "main.css": "/ridge-road-journal-website/static/css/main.2bd1190f.chunk.css",
+    "main.js": "/ridge-road-journal-website/static/js/main.8fd6d4a5.chunk.js",
+    "main.js.map": "/ridge-road-journal-website/static/js/main.8fd6d4a5.chunk.js.map",
+    "runtime-main.js": "/ridge-road-journal-website/static/js/runtime-main.283e41fd.js",
+    "runtime-main.js.map": "/ridge-road-journal-website/static/js/runtime-main.283e41fd.js.map",
+    "static/js/2.9f7f4084.chunk.js": "/ridge-road-journal-website/static/js/2.9f7f4084.chunk.js",
+    "static/js/2.9f7f4084.chunk.js.map": "/ridge-road-journal-website/static/js/2.9f7f4084.chunk.js.map",
+    "static/js/3.e0e19975.chunk.js": "/ridge-road-journal-website/static/js/3.e0e19975.chunk.js",
+    "static/js/3.e0e19975.chunk.js.map": "/ridge-road-journal-website/static/js/3.e0e19975.chunk.js.map",
     "index.html": "/ridge-road-journal-website/index.html",
-    "static/css/main.eb4ed88e.chunk.css.map": "/ridge-road-journal-website/static/css/main.eb4ed88e.chunk.css.map",
-    "static/js/2.0285e044.chunk.js.LICENSE.txt": "/ridge-road-journal-website/static/js/2.0285e044.chunk.js.LICENSE.txt",
+    "static/css/main.2bd1190f.chunk.css.map": "/ridge-road-journal-website/static/css/main.2bd1190f.chunk.css.map",
+    "static/js/2.9f7f4084.chunk.js.LICENSE.txt": "/ridge-road-journal-website/static/js/2.9f7f4084.chunk.js.LICENSE.txt",
     "static/media/bin.a6fd2950.png": "/ridge-road-journal-website/static/media/bin.a6fd2950.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dedf0e1d.js",
-    "static/js/2.0285e044.chunk.js",
-    "static/css/main.eb4ed88e.chunk.css",
-    "static/js/main.06cedc72.chunk.js"
+    "static/js/runtime-main.283e41fd.js",
+    "static/js/2.9f7f4084.chunk.js",
+    "static/css/main.2bd1190f.chunk.css",
+    "static/js/main.8fd6d4a5.chunk.js"
   ]
 }
