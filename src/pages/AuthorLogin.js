@@ -32,10 +32,10 @@ const AuthorLogin = () => {
                 localStorage.setItem('refresh_token', response.data.refresh)
                 axiosInstance.defaults.headers['Authorization'] = 
                     'JWT ' + localStorage.getItem('access_token')
-                    history.push('/ridge-road-journal-website')
+                    history.push('')
             }).catch((err) => {
                 alert("Make Sure Login Credentials Are Correct")
-                history.push('/ridge-road-journal-website/author-login')
+                history.push('/author-login')
             })
             
     }

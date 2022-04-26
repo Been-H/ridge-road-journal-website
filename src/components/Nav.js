@@ -10,23 +10,27 @@ const Nav = () => {
 
         return (
             <header>
+                <div className="empty">empty</div>
+                <div className="logo">
+                    <div className="topLevel">
+                        <h3>The</h3>
+                    </div>
+                    <div className="bottomLevel">
+                        <h2>Ridge Road Journal</h2>
+                    </div>
+                </div>
+                
                 <nav>
-                    <h3 className="logo">The Ridge Road Journal</h3>
                     <ul className="nav-links">
-                        <Link to="/ridge-road-journal-website" style={LinkStyle}>
-                            <li>Home</li>
-                        </Link>
-                        
-                        <Link to="/ridge-road-journal-website/articles" style={LinkStyle}>
+                        <Link to="/articles" style={LinkStyle}>
                             <li>Articles</li>
                         </Link>
-                        <Link to="/ridge-road-journal-website/threads" style={LinkStyle}>
+                        <Link to="/threads" style={LinkStyle}>
                             <li>Threads</li>
                         </Link>
-                        <Link to="/ridge-road-journal-website/author-dash" style={LinkStyle}>
+                        <Link to="/author-dash" style={LinkStyle}>
                             <li>Author Tools</li>
                         </Link>
-                    
                     </ul>
                 </nav>
             </header>

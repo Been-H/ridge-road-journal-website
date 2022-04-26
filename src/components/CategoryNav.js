@@ -32,22 +32,13 @@ const CategoryNav = ( { isArticles }) => {
                         <ul className="category-nav-links">
                            
                             {categories.map((category) => (
-                                <Link to={`/ridge-road-journal-website/${articlesOrThreads}/categories/${category.name}`} style={WhiteLinkStyle}>
+                                <Link to={`/${articlesOrThreads}/categories/${category.name}`} style={WhiteLinkStyle}>
                                     <li>{category.name}</li>
                                 </Link>
                              ))}   
                         </ul>
                         
                     </div>
-                <hr
-                    style={{
-                        color: "black",
-                        backgroundColor: "black",
-                        height: 1,
-                        width: "60%",
-                        margin: "0 auto"
-                    }}
-                />
             </div>
             
         )

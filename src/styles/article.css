@@ -1,6 +1,7 @@
-.article {
-    width: 80%;
+.article-container {
     margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
 }
 
 .article-title {
@@ -45,5 +46,6 @@
     width: 40%;
     margin: 0 auto;
     height: auto;
+    
 }
 

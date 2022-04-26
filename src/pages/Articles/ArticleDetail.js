@@ -24,18 +24,16 @@ const PostDetail = ({ match }) => {
     
 
     if (article !== null) {
-        window.history.replaceState(null, null, `/articles/${article.title}`)
         return (
-            <div>
+            <div className='article-container'>
                 <div className="article-standalone-title">
-                    <h1>{article.title}</h1>
+                    <h1 className="article-title">{article.title}</h1>
                     <h3>{article.author_name}</h3>
                     <h3>{article.date_created}</h3>
                 </div>
                 <div className="article-body">
                     <p dangerouslySetInnerHTML={{__html: article.body}}></p>
                 </div>
-               
             </div>
             
         )

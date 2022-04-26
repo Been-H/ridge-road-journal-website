@@ -24,20 +24,24 @@ const Threads = ({ match }) => {
     if (threads) {
         
         return (
-            <div className="threads">
+            <div>
                 <CategoryNav isArticles={false}/>
-                <h1 className="threads-header">Recent {match.params.category ? match.params.category +" ": ""}Threads:</h1>
-                {threads.reverse().map((thread) => (
-                   <Link to={`/ridge-road-journal-website/threads/${thread.id}`} style={WhiteLinkStyle}>
-                        <div className="thread-link">
-                            <h1 className="thread-title">{thread.title}</h1> 
-                            <h3 className="thread-category">{thread.category}</h3>
-                            <h3 className="thread-date">{thread.date_created}</h3>
-                        </div>
-                        
-                   </Link> 
-                 ))}
+                <div className="threads">
+                
+                    <h1 className="threads-header">Recent {match.params.category ? match.params.category +" ": ""}Threads:</h1>
+                    {threads.reverse().map((thread) => (
+                    <Link to={`/threads/${thread.id}`} style={WhiteLinkStyle}>
+                            <div className="thread-link">
+                                <h1 className="thread-title">{thread.title}</h1> 
+                                <h3 className="thread-category">{thread.category}</h3>
+                                <h3 className="thread-date">{thread.date_created}</h3>
+                            </div>
+                            
+                    </Link> 
+                    ))}
+                </div>
             </div>
+            
         )
     } else {
         return (

@@ -11,10 +11,12 @@ import './styles/article.css'
 import './styles/home.css'
 import './styles/threads.css'
 import './styles/articles.css'
+import './styles/na.css'
 
 import Home from './pages/Home'
 import About from './pages/About';
 import Nav from './components/Nav';
+import CategoryNav from './components/CategoryNav';
 
 import Articles from './pages/Articles/Articles';
 import ArticleDetail from './pages/Articles/ArticleDetail';
@@ -48,36 +50,36 @@ const routing = (
     <React.StrictMode>
       <Nav />
       <Switch>
-        <Route path="/ridge-road-journal-website" exact component={Home}/>
-        <Route path="/ridge-road-journal-website/about" component={About}/> 
+        <Route path="" exact component={Home}/>
+        <Route path="/about" component={About}/> 
 
-        <Route path="/ridge-road-journal-website/articles/" exact component={Articles}/> 
-        <Route path="/ridge-road-journal-website/articles/categories/:category" exact component={Articles}/>  
-        <Route path="/ridge-road-journal-website/articles/:id" exact component={ArticleDetail}/>
+        <Route path="/articles/" exact component={Articles}/> 
+        <Route path="/articles/categories/:category" exact component={Articles}/>  
+        <Route path="/articles/:id" exact component={ArticleDetail}/>
 
-        <Route path="/ridge-road-journal-website/articles/actions/update/:id" exact component={ArticleUpdate}/>
-        <Route path="/ridge-road-journal-website/articles/actions/delete/:id" exact component={ArticleDelete}/>
-        <Route path="/ridge-road-journal-website/articles/actions/create/" exact component={AddArticle}/>
+        <Route path="/articles/actions/update/:id" exact component={ArticleUpdate}/>
+        <Route path="/articles/actions/delete/:id" exact component={ArticleDelete}/>
+        <Route path="/articles/actions/create/" exact component={AddArticle}/>
 
-        <Route path="/ridge-road-journal-website/threads" exact component={Threads}/> 
-        <Route path="/ridge-road-journal-website/threads/categories/:category" exact component={Threads}/> 
-        <Route path="/ridge-road-journal-website/threads/:id" exact component={ThreadDetail}/> 
-        <Route path="/ridge-road-journal-website/threads/actions/update/:id" exact component={UpdateThread}/> 
-        <Route path="/ridge-road-journal-website/threads/actions/create" exact component={CreateThread}/> 
-        <Route path="/ridge-road-journal-website/threads/actions/delete/:id" exact component={ThreadDelete}/> 
+        <Route path="/threads" exact component={Threads}/> 
+        <Route path="/threads/categories/:category" exact component={Threads}/> 
+        <Route path="/threads/:id" exact component={ThreadDetail}/> 
+        <Route path="/threads/actions/update/:id" exact component={UpdateThread}/> 
+        <Route path="/threads/actions/create" exact component={CreateThread}/> 
+        <Route path="/threads/actions/delete/:id" exact component={ThreadDelete}/> 
 
-        <Route path="/ridge-road-journal-website/categories/actions/create/" exact component={AddCategory}/>
-        <Route path="/ridge-road-journal-website/categories/actions/delete/:name" exact component={DeleteCategory}/>
+        <Route path="/categories/actions/create/" exact component={AddCategory}/>
+        <Route path="/categories/actions/delete/:name" exact component={DeleteCategory}/>
 
-        <Route path="/ridge-road-journal-website/register-author" exact component={RegisterAuthor}/>
-        <Route path="/ridge-road-journal-website/author-login" exact component={AuthorLogin}/>  
-        <Route path="/ridge-road-journal-website/author-logout" exact component={AuthorLogout}/> 
+        <Route path="/register-author" exact component={RegisterAuthor}/>
+        <Route path="/author-login" exact component={AuthorLogin}/>  
+        <Route path="/author-logout" exact component={AuthorLogout}/> 
 
-        <Route path="/ridge-road-journal-website/author-dash" exact component={AuthorDash}/> 
+        <Route path="/author-dash" exact component={AuthorDash}/> 
 
-        <Route path="/ridge-road-journal-website/nf" exact component={NotFound}/>
-        <Route path="/ridge-road-journal-website/na" exact component={NotAuthorized}/>
-        <Route path="/ridge-road-journal-website/error" exact component={Unknown}/>
+        <Route path="/nf" exact component={NotFound}/>
+        <Route path="/na" exact component={NotAuthorized}/>
+        <Route path="/error" exact component={Unknown}/>
 
       </Switch>
     </React.StrictMode>

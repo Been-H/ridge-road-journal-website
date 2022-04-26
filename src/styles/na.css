@@ -1,0 +1,16 @@
+.na-container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.na-message {
+    padding: 18rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: rgba(202, 202, 202, 0.336);
+}
+
+.na-message h2 {
+    margin-bottom: 4rem;
+}

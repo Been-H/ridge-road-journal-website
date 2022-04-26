@@ -26,22 +26,25 @@ const Articles = ( {match }) => {
 
     if (articles) {
         return (
-            
-            <div className="articles">
+            <div>
                 <CategoryNav isArticles={true}/>
-                <h1 className="articles-header">Recent {match.params.category ? match.params.category +" ": ""}Articles:</h1>
-                {articles.map((article) => (
-                   <Link to={`/ridge-road-journal-website/articles/${article.id}`} style={WhiteLinkStyle}>
-                       <div className="article-link">
-                            <h1 className="article-title">{article.title}</h1> 
-                            <h3 className="article-category">{article.category_name}</h3>
-                            <h3 className="article-author">{article.author_name}</h3>
-                            <h3 className="article-date">{article.date_created}</h3>
-                       </div>
+                <div className="articles">
+                
+                    <h1 className="articles-header">Recent {match.params.category ? match.params.category +" ": ""}Articles:</h1>
+                    {articles.map((article) => (
+                    <Link to={`/articles/${article.id}`} style={WhiteLinkStyle}>
+                        <div className="article-link">
+                                <h2 className="">{article.title}</h2> 
+                                <h3 className="article-category">{article.category_name}</h3>
+                                <h3 className="article-author">{article.author_name}</h3>
+                                <h3 className="article-date">{article.date_created}</h3>
+                        </div>
 
-                   </Link> 
-                 ))}
+                    </Link> 
+                    ))}
+                </div>
             </div>
+            
         )
     } else {
         return (
