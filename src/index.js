@@ -53,9 +53,9 @@ const routing = (
         <Route path="" exact component={Home}/>
         <Route path="/about" component={About}/> 
 
-        <Route path="articles/" exact component={Articles}/> 
-        <Route path="articles/categories/:category" exact component={Articles}/>  
-        <Route path="articles/:id" exact component={ArticleDetail}/>
+        <Route path="/articles/" exact component={Articles}/> 
+        <Route path="/articles/categories/:category" exact component={Articles}/>  
+        <Route path="/articles/:id" exact component={ArticleDetail}/>
 
         <Route path="/articles/actions/update/:id" exact component={ArticleUpdate}/>
         <Route path="/articles/actions/delete/:id" exact component={ArticleDelete}/>
