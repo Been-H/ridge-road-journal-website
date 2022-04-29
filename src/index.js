@@ -53,7 +53,7 @@ const routing = (
         <Route path="/" exact component={Home}/>
         <Route path="/about" component={About}/> 
 
-        <Route path="./articles/" exact component={Articles}/> 
+        <Route path="ridgeroadjournal.org/articles/" exact component={Articles}/> 
         <Route path="/articles/categories/:category" exact component={Articles}/>  
         <Route path="/articles/:id" exact component={ArticleDetail}/>
 
