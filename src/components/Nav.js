@@ -22,7 +22,7 @@ const Nav = () => {
                 
                 <nav>
                     <ul className="nav-links">
-                        <Link to="ridgeroadjournal.org/articles" style={LinkStyle}>
+                        <Link to="/articles" style={LinkStyle}>
                             <li>Articles</li>
                         </Link>
                         <Link to="/threads" style={LinkStyle}>
