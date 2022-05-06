@@ -50,10 +50,10 @@ const routing = (
     <React.StrictMode>
       <Nav />
       <Switch>
-        <Route path="r" exact component={Home}/>
-        <Route path="/about" component={About}/> 
+        <Route path="ridgeroadjournal.org/" exact component={Home}/>
+        <Route path="ridgeroadjournal.org/about" component={About}/> 
 
-        <Route path="/articles/" exact component={Articles}/> 
+        <Route path="ridgeroadjournal.org/articles/" exact component={Articles}/> 
         <Route path="/articles/categories/:category" exact component={Articles}/>  
         <Route path="/articles/:id" exact component={ArticleDetail}/>
 
